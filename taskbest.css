@@ -1,0 +1,99 @@
+.container
+{
+	width: 303px;
+	height: 465px;
+    background-color: #ed7f2b;
+    position: relative;
+	border-radius: 5px;
+	font-family: Trebuchet MS;
+	box-shadow:0 0 10px #7bb5d1;
+	}
+.best
+{
+	width: 295px;
+	height: 78px;
+	text-align: center;
+	margin: 23px auto;
+	font-size: 23px;
+	color: white;
+	padding: 5px
+}
+.iconic
+{
+	width: 295px;
+	height: 349px;
+	text-align: center;
+	font-size: 23px;
+    background-color: white;
+	margin: 0 auto;
+	padding: 0 auto;
+	border-radius: 5px;
+	color: #354959;
+
+}
+.monthly
+{
+	font-size: 50px;
+	margin: -10px;
+	color: #354959;
+
+}
+
+.table
+{
+	width: 254px;
+	height: 136px;
+	margin: 40px auto;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #888c94;
+	
+	
+}
+
+.li1
+{
+	margin-top: 1px;
+	width: 206px;
+	height: 26px;
+	list-style-type: none;
+	background-color: #edf5fc;
+	text-align: left;
+	padding-left: 55px;
+	padding-top: 8px;
+	display: block;
+
+}
+
+li:before
+{
+	content: url(450px-Checkmark 1234.png);
+}
+
+li:nth-of-type(even)
+{
+	background-color: #f5f5f5;
+}
+			
+.today
+{
+	margin: -25px;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.input
+{
+	width: 255px;
+	height: 40px;
+	background-color: #ed7f2b;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	font-family: Trebuchet MS;
+}

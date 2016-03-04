@@ -1,0 +1,42 @@
+.div
+{
+  margin: 6px auto;
+  padding: 15px;
+  text-align: center;
+  
+}
+
+ul.pagination 
+{
+    display: inline-block;
+    margin: 0 auto;
+  position: relative;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: #9932CC;
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ddd;   
+    font-family: calibri;
+   
+
+}
+
+ul.pagination li a.active {
+    background-color:  #9932CC;
+    color: white;
+    border-radius: 5px;
+    line-height: 5;
+}
+
+ul.pagination li
+a:hover:not(.active)
+{
+    background-color: #9932CC; 
+    color: white;
+}
